@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language School</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Dandan's Language School</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#portal">Student Portal</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="home" class="hero-section">
+        <div class="container">
+            <h2>Welcome to Our Language School</h2>
+            <p>Learn Chinese, Japanese, and English with us!</p>
+            <button onclick="enrollNow()">Enroll Now</button>
+            <button onclick="bookTrial()">Book a Trial Class</button>
+        </div>
+    </section>
+    
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Our mission is to provide top-quality language education for kids and adults.</p>
+            <!-- Add more content about your team and testimonials here -->
+        </div>
+    </section>
+    
+    <section id="courses" class="courses-section">
+        <div class="container">
+            <h2>Our Courses</h2>
+            <div class="course">
+                <h3>Chinese for Kids</h3>
+                <p>Course description and details.</p>
+            </div>
+            <div class="course">
+                <h3>Japanese for Adults</h3>
+                <p>Course description and details.</p>
+            </div>
+            <!-- Add more courses here -->
+        </div>
+    </section>
+    
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    <section id="portal" class="portal-section">
+        <div class="container">
+            <h2>Student Portal</h2>
+            <form id="login-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Language School. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
